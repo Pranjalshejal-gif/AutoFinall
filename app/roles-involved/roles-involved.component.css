@@ -1,0 +1,77 @@
+table {
+    width: 100%;
+    border-collapse:collapse;
+    margin:5%;
+
+  }
+  .mat-header-cell, .mat-cell{
+    border:2px solid #f62121;
+    padding:2px;
+    text-align:left;
+    
+
+  }
+  .rohd{
+    margin-top:20px;
+    text-align:center;
+    color:red;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .text-bold{
+    color:rgb(31, 29, 29);
+    font-weight: bold;
+    /* background-color: aqua; */
+  }
+  .mat-header-cell
+  {
+    background-color: cornflowerblue;
+  }
+  
+  .mat-header-row {
+
+    background-color: #d91717;
+    font-weight:bold;
+  }
+  .mat-row:nth-child(odd) {
+    background-color: #f9f9f9; /* Alternating row color for better readability */
+  }
+  .mat-row:nth-child(even) {
+    background-color: white; /* Alternating row color for better readability */
+  }
+  .custom-table th, .custom-table td {
+    width: auto; /* Ensures that columns resize based on content */
+  }
+
+.custom-table tr:hover {
+    background-color: #f1f1f1; /* Adds hover effect for rows */
+  }
+  .table-wrapper {
+    overflow-x: auto; /* Adds horizontal scrolling if the table is too wide */
+  }
+  .bold-text{
+    font-weight: bold;
+
+  }
+  /* Styling specific columns with custom width */
+.custom-table th, .custom-table td {
+    width: auto; /* Default width for all cells */
+  }
+  
+  .custom-table .mat-column-position {
+    width: 10%; /* Adjusts width of the position column */
+  }
+  
+  .custom-table .mat-column-Auto_Tester {
+    width: 30%; /* Adjusts width of Auto_Tester column */
+  }
+  
+  .custom-table .mat-column-Manual_Tester {
+    width: 30%; /* Adjusts width of Manual_Tester column */
+  }
+  
+  .custom-table .mat-column-BA {
+    width: 30%; /* Adjusts width of BA column */
+  }
+  
+  

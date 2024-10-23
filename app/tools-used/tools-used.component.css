@@ -1,0 +1,60 @@
+.card-class{
+    margin:2%;
+    margin-bottom: 20px;
+    width:18%;
+    text-align:left;
+    color:blueviolet;
+    font-weight:bold;
+    font-size:2px;
+    float:left;
+    border-radius: 10px;
+    /* border-width: 2px; */
+    cursor:pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    /* flex: 1 1 calc(25% - 20px); */
+    box-sizing: border-box;       /* Ensures padding and border don't affect the card size */
+    /* max-width: 300px;       */
+    
+
+   
+}
+.Toolhe{
+    background-color:whitesmoke;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+   color:rgb(210, 42, 42);
+}
+.card-class:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+
+}
+.img{
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if needed) */
+  
+}
+
+.card-div{
+    display: flex;
+    flex-wrap: wrap;             /* Allows the cards to wrap into multiple rows */
+    justify-content: space-around; /* Spaces the cards evenly with some gaps */
+    /* background-color: antiquewhite; */
+  
+}
+
+  
+
+
+/* mat-card {
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  mat-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+   */

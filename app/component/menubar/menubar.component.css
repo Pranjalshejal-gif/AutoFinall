@@ -1,0 +1,96 @@
+/* General Styling for the mat-nav-list */
+/* mat-nav-list {
+  width: 250px; /* Set the width of the sidebar */
+  /* background-color:white; Light background for the sidebar */
+  /* border-right: 1px solid #ddd; Border to separate sidebar */
+  /* padding: 0; */
+  /* height:700px; */
+ 
+.mat-icon{
+  vertical-align:center;
+  margin-right:1rem;
+}
+
+/* Logo Styling */
+.logo {
+  text-align: center; /* Center the logo in the div */
+  padding: 20px 0;
+}
+
+.logo img {
+  width: 200px; /* Adjust logo size */
+  height: auto;
+  border-radius: 5px; /* Optional: round the edges of the logo */
+}
+
+/* Divider Styling */
+mat-divider {
+  border-top-width:2px;
+  background-color:white; /* Light grey divider color */
+}
+
+/* Subheader (Table Content) Styling */
+h2[matSubheader] {
+  font-size: 18px; /* Font size for the subheader */
+  font-weight: bold; /* Bold font for emphasis */
+  color: #333; /* Darker font color */
+  padding: 15px; /* Add padding around the text */
+  margin: 0; /* Remove margin to align the subheader properly */
+  background-color:#0f172a; /* Light grey background to make it stand out */
+  text-align: center; /* Center the text */
+  text-transform: uppercase; /* Make the text uppercase */
+}
+
+/* Mat-list-item Styling */
+a[mat-list-item] {
+  display: flex; /* Align items in a row */
+  align-items: center; /* Vertically center content */
+  padding: 12px 20px; /* Add padding around the list items */
+  font-size: 0.8rem; /* Font size for the list text */
+  color: #94a3b8 !important; /* Dark grey text color */
+   text-decoration: none; /* Remove underline from the links */
+  transition: background-color 0.3s ease;  /*Smooth transition for hover effects */
+  height:44px !important;
+  border-radius:5px;
+  margin-bottom:4px;
+  margin:0 8px;
+
+
+}
+
+a[mat-list-item]:hover {
+  background-color: #e0e0e0; /* Change background on hover */
+}
+
+/* Active List Item Styling */
+a[mat-list-item].list-item-active {
+  background-color: #d0d0d0; /* Different background for active items */
+  font-weight: bold; /* Bold font for active items */
+  color: #000; /* Darker text color for active items */
+}
+
+/* Mat-icon Styling */
+a[mat-list-item] mat-icon {
+  margin-right: 10px; /* Space between the icon and text */
+  color: #666; /* Default icon color */
+}
+
+/* Active Icon Color */
+a[mat-list-item].list-item-active mat-icon {
+  color: #000; /* Darker icon color for active items */
+}
+
+/* Hover State for Icon */
+a[mat-list-item]:hover mat-icon {
+  color: #333; /* Change icon color on hover */
+}
+
+/* Additional Utility Classes */
+.mt-2 {
+  margin-top: 15px; /* Consistent spacing above elements */
+}
+
+.py-3 {
+  padding-top: 10px;
+  padding-bottom: 10px; /* Padding for the logo container */
+}
